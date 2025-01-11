@@ -17,13 +17,24 @@
 
 .bg-color
   &-1
-    background-color: #EAF8FD
+    background-color: #EFFCCD
   &-2
-    background-color: #FFFBE8
+    background-color: #D9FEFC
   &-3
-    background-color: #F0E9F6
+    background-color: #7145FE !important
   &-4
-    background-color: #EAF8FD
+    background-color: #B3F00D
+  &-5
+    background-color: #63E1DD
+  &-6
+    background-color: #EDE8FB
+  &-7
+    background-color: #EAF2FB
+  &-8
+    color: #7145FE !important
+  &-9
+    background-color: #F3F0FC
+  
   &-info
     background-color: #E8EEFD
   &-sintesis
@@ -39,6 +50,28 @@
   &.color-terciario
     border-top: 5px solid $color-terciario !important
 
+.bg-h85
+  position: relative
+  &::after
+    content: ''
+    position: absolute
+    bottom: -3%
+    left: -43px
+    width: calc( 100% + 98px)
+    height: 69%
+    transform: translateY(-9%)
+    background-color: #D9FEFC
+    z-index: 0
+  .col-lg-12, .row
+    z-index: 1
+
+
+  @media screen and (max-width: $bp-max-md)
+    padding: 1rem
+  
+    &::after
+      height: 100%
+
 // Full Width Background
 .bg-full-width
   background-size: cover
@@ -48,10 +81,18 @@
   @media screen and (max-width: $bp-max-sm)
     padding-left: 1.5rem
     padding-right: 1.5rem
+.bg-full-width-1
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
 
 .bg-fondo
   &-1
-    background-image: url("../assets/bg/bg1.png") !important
+    background-image: url("../assets/bg/bg1.svg") !important
     background-position: top
   &-2
     // background-image: url("../assets/bg/bg2.png") !important

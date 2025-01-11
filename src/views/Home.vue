@@ -74,7 +74,7 @@ export default {
   .home-main-title
     font-size: 18px
     font-weight: bold
-    color: $color-acento-contenido
+    color: $color-primario
   .home-content
     background-color: white
   .info-section
