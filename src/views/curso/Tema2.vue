@@ -572,7 +572,7 @@
             
       .col-md-8.col-lg-4.order-1.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema2/38.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema2/38b.png", data-aos="zoom-in")
 
 
     h2.mb-3(data-aos="fade-right") Modelo DevOps
