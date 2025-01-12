@@ -34,6 +34,16 @@
     color: #7145FE !important
   &-9
     background-color: #F3F0FC
+  &-10
+    background-color: #C6FDFB
+  &-11
+    background-color: #C7B5F1
+  &-12
+    background-color: #E2D9FE
+  &-13
+    background-color: #E7FAB5
+  &-14
+    background-color: #C5B4FE
   
   &-info
     background-color: #E8EEFD
@@ -64,8 +74,42 @@
     z-index: 0
   .col-lg-12, .row
     z-index: 1
-
-
+  @media screen and (max-width: $bp-max-md)
+    padding: 1rem
+  
+    &::after
+      height: 100%
+.bg-h85-2
+  position: relative
+  &::after
+    content: ''
+    position: absolute
+    bottom: -8%
+    left: -43px
+    width: calc( 100% + 98px)
+    height: 92%
+    transform: translateY(-9%)
+    background-color: #EFFCCD
+  .col-lg-12, .row
+    z-index: 1
+  @media screen and (max-width: $bp-max-md)
+    padding: 1rem
+  
+    &::after
+      height: 100%
+.bg-h85-3
+  position: relative
+  &::after
+    content: ''
+    position: absolute
+    bottom: -8%
+    left: -43px
+    width: calc( 100% + 98px)
+    height: 96%
+    transform: translateY(-9%)
+    background-color: #C6FDFB
+  .col-lg-12, .row
+    z-index: 1
   @media screen and (max-width: $bp-max-md)
     padding: 1rem
   
@@ -95,7 +139,13 @@
     background-image: url("../assets/bg/bg1.svg") !important
     background-position: top
   &-2
-    // background-image: url("../assets/bg/bg2.png") !important
+    background-image: url("../assets/bg/bg2.svg") !important
+    background-position: bottom
+  &-3
+    background-image: url("../assets/bg/bg3.svg") !important
+    background-position: bottom
+  &-4
+    background-image: url("../assets/bg/bg4.svg") !important
     background-position: bottom
   &-slider
     background-image: url("../assets/bg/bg-slider.png") !important
@@ -138,15 +188,15 @@ $custom-card-img-height: 322px
 
 
 .acordion__header
-  background-color: lighten($color-acento-contenido, 25%) !important
+  background-color: lighten($color-secundario, 25%) !important
 
 .acordion__header--active
-  background-color: $color-acento-contenido !important
+  background-color: $color-secundario !important
   h4, i
     color: #000 !important
 
 .acordion__contenido
-  background-color: lighten($color-acento-contenido, 27%) !important
+  background-color: lighten($color-secundario, 27%) !important
 
 
 .anexo__texto
@@ -214,7 +264,7 @@ $custom-card-img-height: 322px
   font-weight: 900
 
 .lista-ol--cuadro__vineta
-  background-color: $color-secundario
+  background-color: $color-acento-contenido
   color: #000
   min-width: 32px
   min-width: 28px

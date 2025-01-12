@@ -15,13 +15,13 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Concepto y tipos de software',
+        titulo: 'Concepto y tipos de <em>software</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Concepto y tipos de software',
+            titulo: 'Concepto y tipos de <em>software</em>',
             hash: 't_1_1',
           },
         ],
@@ -30,7 +30,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Ciclo de vida del desarrollo de software',
+        titulo: 'Ciclo de vida del desarrollo de <em>software</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -85,19 +85,20 @@ export default {
   referencias: [
     {
       referencia:
-        'Cedeño Brito, M.E. & Gracia Muñoz, M.C. (2021). Diseño de software. Ediciones Díaz de Santos.',
-      link: 'https://openlibrary.org/books/OL37805173M/Dise%C3%B1o_de_software',
+        'Cedeño Brito, M.E. & Gracia Muñoz, M.C. (2021). Diseño de <em>software</em>. Ediciones Díaz de Santos.',
+      link:
+        'https://openlibrary.org/books/OL37805173M/Dise%C3%B1o_de_<em>software</em>',
     },
     {
       referencia:
-        'Dr. Pérez Rodríguez. (2012). Desarrollo de elementos software para gestión de sistemas (2 ed.). Editorial ICB.',
+        'Dr. Pérez Rodríguez. (2012). Desarrollo de elementos <em>software</em> para gestión de sistemas (2 ed.). Editorial ICB.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/106375',
     },
     {
       referencia:
-        'Pressman, R.S. & Maxim, B.R. (2020). Ingeniería de software: Un enfoque práctico (9 ed.). Educación McGraw-Hill',
+        'Pressman, R.S. & Maxim, B.R. (2020). Ingeniería de <em>software</em>: Un enfoque práctico (9 ed.). Educación McGraw-Hill',
       link:
-        'https://www.javier8a.com/itc/bd1/ld-Ingenieria.de.software.enfoque.practico.7ed.Pressman.PDF',
+        'https://www.javier8a.com/itc/bd1/ld-Ingenieria.de.<em>software</em>.enfoque.practico.7ed.Pressman.PDF',
     },
     {
       referencia:
@@ -106,26 +107,22 @@ export default {
     },
     {
       referencia:
-        'Piattini Velthuis, M. & Garzás Parra, J. (2015). Fábricas de software: experiencias, tecnologías y organización. Editorial RA-MA.',
+        'Piattini Velthuis, M. & Garzás Parra, J. (2015). Fábricas de <em>software</em>: experiencias, tecnologías y organización. Editorial RA-MA.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/106389',
     },
     {
       referencia:
-        'ProArgentina. (2005). Industria del software. Editor del Cid.',
+        'ProArgentina. (2005). Industria del <em>software</em>. Editor del Cid.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/98183',
     },
     {
-      referencia: 'Ciclo de vida del software. (s.f.). (2024). En PBWorks',
-      link: 'https://ingsw.pbworks.com/f/Ciclo+de+Vida+del+Software .pdf',
-    },
-    {
       referencia:
-        'Teniente López, E., Costal Costa, D. & Sancho Samsó, MR (2015). Especificación de sistemas software en UML. Universitat Politècnica de Catalunya.',
+        'Teniente López, E., Costal Costa, D. & Sancho Samsó, MR (2015). Especificación de sistemas <em>software</em> en UML. Universitat Politècnica de Catalunya.',
       link: ' https://elibro.net/es/lc/tecnologicadeloriente/titulos/61407 ',
     },
     {
       referencia:
-        'Vizcaíno Barceló, A., García Rubio, F. O. & Piattini Velthuis, M. (2014). Desarrollo global de software. Editorial RA-MA.',
+        'Vizcaíno Barceló, A., García Rubio, F. O. & Piattini Velthuis, M. (2014). Desarrollo global de <em>software</em>. Editorial RA-MA.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/106438',
     },
   ],
@@ -133,17 +130,17 @@ export default {
     {
       termino: 'Algoritmo',
       significado:
-        'Conjunto de instrucciones o pasos definidos, para realizar una tarea específica en la programación de software.',
+        'Conjunto de instrucciones o pasos definidos, para realizar una tarea específica en la programación de <em>software</em>.',
     },
     {
-      termino: 'Arquitectura de software',
+      termino: 'Arquitectura de <em>software</em>',
       significado:
-        'Estructura fundamental del sistema de software, que define la interacción entre los diferentes componentes y subsistemas.',
+        'Estructura fundamental del sistema de <em>software</em>, que define la interacción entre los diferentes componentes y subsistemas.',
     },
     {
       termino: 'Código fuente',
       significado:
-        'Estructura fundamental del sistema de software, que define la interacción entre los diferentes componentes y subsistemas.',
+        'Estructura fundamental del sistema de <em>software</em>, que define la interacción entre los diferentes componentes y subsistemas.',
     },
     {
       termino: 'Depuración',
@@ -153,32 +150,32 @@ export default {
     {
       termino: 'Desarrollo ágil',
       significado:
-        'Metodología de desarrollo de software, que enfatiza la flexibilidad, colaboración y entregas incrementales rápidas, adaptándose a cambios en los requisitos.',
+        'Metodología de desarrollo de <em>software</em>, que enfatiza la flexibilidad, colaboración y entregas incrementales rápidas, adaptándose a cambios en los requisitos.',
     },
     {
-      termino: 'Diseño de software',
+      termino: 'Diseño de <em>software</em>',
       significado:
-        'Proceso de planificar y especificar la estructura y la funcionalidad de un software, incluyendo diagramas y especificaciones detalladas.',
+        'Proceso de planificar y especificar la estructura y la funcionalidad de un <em>software</em>, incluyendo diagramas y especificaciones detalladas.',
     },
     {
       termino: 'Marco',
       significado:
-        'Conjunto de bibliotecas y herramientas predefinidas que proporcionan una estructura estándar, para el desarrollo de aplicaciones de software.',
+        'Conjunto de bibliotecas y herramientas predefinidas que proporcionan una estructura estándar, para el desarrollo de aplicaciones de <em>software</em>.',
     },
     {
-      termino: 'Mantenimiento de software',
+      termino: 'Mantenimiento de <em>software</em>',
       significado:
-        'Fase del ciclo de vida del software que implica la corrección de errores, actualización y adaptación del software, a nuevos requisitos o entornos.',
+        'Fase del ciclo de vida del <em>software</em> que implica la corrección de errores, actualización y adaptación del <em>software</em>, a nuevos requisitos o entornos.',
     },
     {
       termino: 'Prototipo',
       significado:
-        'Modelo inicial o versión preliminar de un sistema de software, utilizado para evaluar requisitos, probar funcionalidades o generar retroalimentación de los usuarios.',
+        'Modelo inicial o versión preliminar de un sistema de <em>software</em>, utilizado para evaluar requisitos, probar funcionalidades o generar retroalimentación de los usuarios.',
     },
     {
       termino: 'Repositorio',
       significado:
-        'Espacio de almacenamiento donde se guarda el código fuente de un proyecto de software, facilitando su gestión, colaboración y control de versiones.',
+        'Espacio de almacenamiento donde se guarda el código fuente de un proyecto de <em>software</em>, facilitando su gestión, colaboración y control de versiones.',
     },
   ],
 }
