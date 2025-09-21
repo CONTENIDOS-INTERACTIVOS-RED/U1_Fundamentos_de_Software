@@ -140,7 +140,7 @@ export default {
     {
       termino: 'Código fuente',
       significado:
-        'Estructura fundamental del sistema de <em>software</em>, que define la interacción entre los diferentes componentes y subsistemas.',
+        'Conjunto de instrucciones escritas por los programadores en un lenguaje de programación específico, que define el comportamiento del <em>software</em>.',
     },
     {
       termino: 'Depuración',

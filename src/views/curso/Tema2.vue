@@ -786,7 +786,7 @@
               a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/68913" target="_blank" rel="noopener noreferrer") Echeverri, J. Aristizábal, M. & González, L. (2013). Reflexiones sobre ingeniería de requisitos y pruebas de <em>software</em>. Corporación Universitaria Remington. 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://intelequia.com/es/blog/desarrollo-de-<em>software</em>?category=desarrollo%20de%20<em>software</em> " target="_blank" rel="noopener noreferrer") Desarollo de <em>software</em>. 
+              a(href="https://intelequia.com/es/blog/desarrollo-de-software?category=desarrollo%20de%20software" target="_blank" rel="noopener noreferrer") Desarollo de <em>software</em>. 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot" target="_blank" rel="noopener noreferrer") GitHub Copilot. 
